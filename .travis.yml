@@ -1,0 +1,7 @@
+language: csharp
+solution: Scho.NetCore.App.sln
+mono: none
+dotnet: 2.1.502
+script:
+ - dotnet restore
+ - dotnet test
